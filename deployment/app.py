@@ -58,7 +58,7 @@ st.markdown("""
 st.title(":EnergyConsumption_deployment_model:")   
 
 st.markdown("---")
-# 👉 Datetime input
+#  Datetime input
 datetime_input = st.text_input("Enter Datetime (YYYY-MM-DD HH:MM:SS)", "2023-01-01 12:00:00")
 
 # convert datetime → features
@@ -80,7 +80,7 @@ numerical_input={}
 for col, (min_val, max_val, default) in numerical_col.items():
     numerical_input[col] = st.slider(col, float(min_val), float(max_val), float(default))
 
-# 👉 add datetime features (only 2)
+#  add datetime features (only 2)
 numerical_input["Hour"] = hour
 numerical_input["Day"] = day
 
