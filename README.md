@@ -1,19 +1,22 @@
 # **⚡ Energy Consumption Prediction Model Deployment**
 
 
-📌 Project Overview
+*📌 Project Overview*
 This project focuses on predicting energy consumption using advanced machine learning techniques.
 The best performing model identified is XGBRegressor, achieving an impressive R² Score: 0.9350, which indicates high accuracy and reliability in forecasting.
-🎯 Objectives
+
+*🎯 Objectives*
 - Build a predictive model for energy consumption.
 - Compare multiple regression algorithms.
 - Select the best model based on performance metrics.
 - Provide insights for efficient energy management.
-🛠️ Tech Stack
+
+*🛠️ Tech Stack*
 - Python (Pandas, NumPy, Matplotlib, Scikit-learn, XGBoost)
 - Machine Learning (Regression models, performance evaluation)
 - Visualization (Matplotlib/Seaborn for trend analysis)
-📊 Workflow
+
+*📊 Workflow*
 - Data Cleaning & Preprocessing
 - Handling missing values
 - Feature scaling & transformation
@@ -27,7 +30,8 @@ The best performing model identified is XGBRegressor, achieving an impressive R�
 - Root Mean Squared Error (RMSE)
 - Result
 - XGBRegressor achieved R² = 0.9350
-🚀 Key Result
+  
+*🚀 Key Result*
 XGBRegressor outperformed other models, making it the most reliable choice for energy consumption prediction.
 
 ├── data/                # Dataset files
@@ -36,7 +40,7 @@ XGBRegressor outperformed other models, making it the most reliable choice for e
 ├── visuals/             # Graphs and plots
 └── README.md            # Project documentation
 
-🔮 Future Scope
+*🔮 Future Scope*
 - Deploy model using Streamlit/Flask for interactive prediction.
 - Integrate with IoT devices for real-time energy monitoring.
 - Expand dataset for multi-region energy forecasting.
