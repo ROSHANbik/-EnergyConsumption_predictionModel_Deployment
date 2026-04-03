@@ -34,11 +34,20 @@ The best performing model identified is XGBRegressor, achieving an impressive R�
 *🚀 Key Result*
 XGBRegressor outperformed other models, making it the most reliable choice for energy consumption prediction.
 
-├── data/                # Dataset files
-├── notebooks/           # Jupyter notebooks for experiments
-├── models/              # Saved trained models
-├── visuals/             # Graphs and plots
-└── README.md            # Project documentation
+├── data/
+├── research/                 # Raw dataset files
+├── src/                      # Research notes, references, EDA
+│   ├── data_ingestion/       # Scripts for loading and handling data
+│   ├── data_preprocessing/   # Cleaning, feature engineering, transformations
+│   ├── model_building/       # Training scripts for ML models
+│   └── model_evaluated/
+── deployment/               
+│   └── app.py                # Deployment script (Flask/Streamlit/FastAPI)
+                               # Evaluation reports, metrics, ROC/AUC, R² scores
+├── notebooks/                # Jupyter notebooks for experiments
+├── models/                   # Saved trained models (pickle/joblib)
+├── visuals/                  # Graphs, plots, and visualizations
+└── README.md                 # Project documentation
 
 *🔮 Future Scope*
 - Deploy model using Streamlit/Flask for interactive prediction.
